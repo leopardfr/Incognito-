@@ -9,7 +9,7 @@ import { community } from './community.js';
 window.app = new App();
 
 
-switch(localStorage.getItem('incog||background')) {
+switch(localStorage.getItem('Brody||background')) {
     case 'stars':
         particlesJS.load('.particles', './json/stars.json');
         break;
@@ -36,10 +36,10 @@ app.destroyParticles = function() {
 document.querySelector('#open-nav').addEventListener('click', app.openNav);
 document.querySelector('#close-nav').addEventListener('click', app.closeNav);
 
-document.title = localStorage.getItem('incog||title') || 'Tyson V6';
+document.title = localStorage.getItem('Brody||title') || 'Tyson V6';
 window.icon = document.querySelector('#favicon');
 
-icon.href = localStorage.getItem('incog||icon') || './index.svg';
+icon.href = localStorage.getItem('Brody||icon') || './index.svg';
 
 app.on('init', () => {
     app.icon = document.querySelector('#favicon');
