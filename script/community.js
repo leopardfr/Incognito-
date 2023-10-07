@@ -6,12 +6,12 @@ function community(app) {
         'div', 
         [
             app.createElement('section', [
-                app.createElement('p', 'You are being taken to another website (discord.gg/unblock).', {
+                app.createElement('p', 'Made for brody bye tyson', {
                         style: {
                             'margin-bottom': '0'
                         }
                     }),
-                    app.createElement('p', 'Are you sure you want to <a href="https://discord.gg/unblock">proceed</a>?', {
+                    app.createElement('p', 'Made by tyson cause he better, {
                         style: {
                             'margin-bottom': '0'
                         }
